@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=okSrioyYnHw
+https://huggingface.co/docs/transformers/en/index
+https://huggingface.co/Salesforce/blip-image-captioning-base
+https://huggingface.co/models?pipeline_tag=image-to-text&sort=trending
+https://github.com/salesforce/BLIP?tab=readme-ov-file
+https://pytorch.org/
+https://pillow.readthedocs.io/en/stable/
+
+
+a HuggingFace Algorithm to create AI Image captioning, using an image-to-text algorithm.
+
+AI Generated Image Captions in Python 
+
+pip install huggingface_hub
+You already have it if you installed transformers or datasets
+
+huggingface-cli login
+Log in using a token from huggingface.co/settings/tokens
+Create a model or dataset repo from the CLI if needed
+huggingface-cli repo create repo_name --type {model, dataset, space}
